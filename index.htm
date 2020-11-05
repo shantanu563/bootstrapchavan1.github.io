@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 30px;
+    width: 25%;
+    text-decoration: underline;
+     text-shadow: -20px -20px 3px #C9C9C9;
+     font-weight: bold
+
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 200%;
+    font-size: xx-large;
+}
+
+#Home {background-color:#5DBDF8;}
+#Contact {background-color:green;}
+#About {background-color: orange;}
+
+<style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #3B3B3B ;
+            }
+
+            li {
+                float: right;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                font-size: x-large;
+                padding: 20px;
+                text-decoration: none;
+
+            }
+
+            li a:hover {
+                background-color: #74E2E2;
+            }
+            h1{
+                 font-feature-settings: 32;
+             font-size: 58px;
+             text-align: center;
+             text-decoration: underline;
+             text-rendering: !important;
+             text-shadow: -6px -1px 5px #808080;
+             text-emphasis-style: double-circle;
+             color: #00458A;
+
+            }
+             .center {
+            text-align: center;
+        }
+
+        .pagination {
+            display: inline-block;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 38px 16px;;
+            text-decoration: none;
+            margin:0 4px;
+            border-radius: 5px;
+        }
+
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid #4CAF50;
+             border-radius: 5px;
+        }
+         li img{
+            background-size: cover;
+
+        }
+
+        .pagination a:hover:not(.active)
+        {
+          background-size: 100px;
+          background-color: #ddd;
+          border-radius: 5px;
+        }
+        img.{
+               border-radius: 5px;
+        }
+        div.gallery {
+          margin: 5px;
+          border: 10px solid #ccc;
+          float: left;
+          width: 100px;
+        }
+
+        div.gallery:hover {
+          border: 9px solid #777;
+        }
+
+        div.gallery img {
+          width: 500%;
+          height:50px;
+        }
+
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+         .trunk img{
+             background-color: #FFD700;
+              left: 100px;
+
+         }
+         a.ex2:hover, a.ex2:active {
+             font-size: 150%;
+             }
+
+            </style>
+</style>
+</head>
+<body>
+
+<button  class="tablink" onclick="openPage('Home', this, '#5DBDF8 ')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('Contact', this, 'green')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+<div id="Home" class="tabcontent">
+
+
+            <div class="head">
+            <h1 >@BCreativeDesign</h1>
+            </div>
+             <div class="center">
+            <div class="pagination">
+            <a href="#">&laquo; &laquo;</a>
+            <a href="#"><img src="logo.jpg" width="90" height="90" alt=" "></a>
+            <a href="#"><img src="sli2.jpg" width="90" height="90" alt=" "></a>
+            <a href="#"><img src="sli3.jpg" width="90" height="90" alt=" "></a>
+            <a href="#"><img src="sli4.jpg" width="90" height="90" alt=" "></a>
+            <a href="#"><img src="sli5.jpg" width="90" height="90" alt=" "></a>
+            <a href="#">&raquo;&laquo;</a>
+            </div>
+        </div>
+        <div style="background-color: #0082AD" class="center">
+                   <img src="editor.png" width="400" height="300" alt=" ">
+                <h2 style="font-family: Consolas; font-size: xx-large">Professional logos for your company<h2>
+                    <p style="font-family: Consolas; font-size: x-large"> Our designers have worked hard to offer
+                     you thousands of quality templates! Simply select the one that
+                      reflects your business the most and start making your own personal logo! </p>
+                      <img src="infra.jpeg" width="300" height="300"  style="border-radius: 5px; border: medium"  alt=" ">
+                     <img src="far lo1.jpg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+                      <img src="cafe.jpeg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+                     <img src="ani lo4.jpg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+                     <img src="hotel.jpeg" width="300" height="300" style="border-radius: 5px; border: medium"alt=" ">
+                    <img src="fo lo2.jpg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+                     <img  src="spo lo1.jpg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+                      <img src="motor1.jpeg" width="300" height="300" style="border-radius: 5px; border:  medium" alt=" ">
+                      <img src="youtube.jpeg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+                    <img src="fo lo3.jpg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+                     <img src="fabricat.jpeg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+                     <img  src="spo lo4.jpg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+                      <img src="pipe.jpeg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+                      <img src="spo lo5.jpg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+                      <img src="far lo5.jpg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+                     <img src="spo lo8.jpg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+                      <img src="motor.jpeg" width="300" height="300" style="border-radius: 5px; border:  medium" alt=" ">
+                      <img src="far lo6.jpg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+                      <img src="spo lo3.jpg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+                      <img src ="ani lo6.jpg" width="300" height="300" style="border-radius: 5px; border: medium" alt=" ">
+          </div>
+
+                <div  style="background-color: #FFD700" class="trunk">
+                   <h1>Why choose LogoDesign?</h1>
+       <p style="text-align: center; font-family: Impact, Charcoal, sans-serif"> <img src="ga1.png" width="200" height="200"  style="border-radius: 9px;  position: relative;left: 50px" alt=" ">
+            <br><br> &nbsp;  Create a brand to your image .<br>We believe a professional logo improves your branding and<br> will give you an edge over your competitors.
+        For tips, tricks and much more, check out our blog!</p>
+
+     <p style="text-align: center; font-family: Impact, Charcoal, sans-serif">      <img  src="fr1.jpg"  width="200" height="200"  style="border-radius: 9px;  left: 50px; position: relative " alt=" "ondblclick="mouse">
+                   <br><br> &nbsp;       A user-friendly editor
+        <br>There is no need for advanced technical skills,<br> our drag and drop editor is easy for everyone to use.</p>
+
+<p style="text-align: center; font-family:Impact,Charcoal,sans-serif"> <img src="not 1.jpg"  width="200" height="200" style="border-radius: 9px; left: 50px; position: relative " alt=" "ondblclick="mouse">
+         <br><br> &nbsp;     &nbsp;    Thousands of logo templates
+                   <br>Our designers have created thousands of templates<br> for you to get inspired and start your logo from!<br><br></p>
+                 </div>
+
+             <div  style="background-color: #D3D3D3; width: auto;  class="trunk">
+                <h1> Don't wait! Create your own logo now!</h1>
+                  <p style="text-align: center; font-family: Impact, Charcoal, sans-serif">We are proud to offer the most simple and fast logo design solution.<br>
+                To start, choose from thousands of high quality templates.
+                <br> Our templates are divided in 20 categories like agriculture,
+                 real estate and technology, so can you definitely <br>create a logo that matches your needs.</p>
+                 <h1>Feel free to contact us!!</h1>
+                <h2  style="text-align: center; font-family: Verdana, Geneva, sans-serif;background-color: #FFDAB9">contact number:8087276062</h2>
+                <h2 style="text-align: center; font-family: Verdana, Geneva, sans-serif; background-color: #7eff00">instagram id: click on below link  for more info and for real page </h2>
+                <h2 style="text-align: center; font-family: Verdana, Geneva, sans-serif; background-color: #FFDAB9 "><a class="ex2" href="https://www.instagram.com/_b_creative_design/">@_b_creativedesign </a></h2>
+          </div>
+                   </div>
+</div>
+
+<div id="News" class="tabcontent">
+    <h3>News</h3>
+    <p>Some news this fine day!</p>
+</div>
+
+<div id="Contact" class="tabcontent">
+ <img src="logo.jpg" style=" style=" padding-left: 250px  ">
+<h1 style="text-align: center; font-family: Impact, Charcoal, sans-serif; font-size: 46px;padding-top: 205px;background-color: #009933"> contact us on our instagram id...</h1>
+    <h2 style="text-align: center; font-family: Verdana, Geneva, sans-serif; background-color: #FFDAB9 "><a class="ex2" href="https://www.instagram.com/_b_creative_design/">@_b_creativedesign </a></h2>
+    <p style="text-align: center; font-family: Impact, Charcoal, sans-serif; font-size: 40px; color: #CC9900">Thanks for contacting please stay active with us for more updates</p>
+    </div>
+</div>
+
+<div id="About" class="tabcontent">
+    <img src="logo.jpg" style=" style=" padding: 350px ">
+   <h1 style="font-family: Impact, Charcoal, sans-serif; text-align: center">About FreeLogoDesign</h1>
+<p  style="text-align: center; background-color:#ff007e"> We are proud to offer the most simple and fast logo design solution.<br> To start, choose from thousands of high quality templates. <br>Our templates are divided in 20 categories like agriculture,
+ real estate and technology,<br> so can you definitely create a logo that matches your needs.We want you to enjoy your free logo design experience!<br> Feel free to contact us if you need help, <br>if you have questions or questions, or simply if you want to chat.<br> We will be pleased to assist you!They trusted us</p>
+ <h2 style="text-align: center; font-family: Verdana, Geneva, sans-serif; background-color: #97ae2a">instagram id: click on below link to get our insta page </h2>
+  <h2 style="text-align: center; font-family: Verdana, Geneva, sans-serif; background-color: #FFDAB9 "><a class="ex2" href="https://www.instagram.com/_b_creative_design/">@_b_creativedesign </a></h2>
+         </div>
+</div>
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
